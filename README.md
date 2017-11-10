@@ -6,3 +6,15 @@ Useful to use in conjunction with Drupal's [Critical CSS module](https://www.dru
 These files should be placed into Drupal's current theme directory, tipically in sites
 
 Please note that this gulp task should be tweaked to match your needs and workflow.
+
+## Requirements ##
+
+* [npm](https://nodejs.org/en/download/)
+* [gulp](https://gulpjs.com/)
+
+## Steps to follow ##
+
+```
+$ npm install
+$ gulp critical
+```
