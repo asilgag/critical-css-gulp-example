@@ -1,0 +1,26 @@
+{
+  "name": "critical-css-gulp-example",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "postinstall": "find node_modules/ -name '*.info' -type f -delete",
+    "start": "gulp"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "browser-sync": "^2.18.13",
+    "critical": "^0.8.4",
+    "gulp": "^3.9.1",
+    "gulp-load-plugins": "^1.2.0",
+    "gulp-replace": "^0.6.1",
+    "os-tmpdir": "^1.0.2",
+    "request-promise": "^4.2.2",
+    "require-dir": "^0.3.2",
+    "rimraf": "^2.6.1",
+    "run-sequence": "^1.1.5",
+    "url-join": "^2.0.1"
+  },
+  "engines": {
+    "node": ">= 4"
+  }
+}

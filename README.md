@@ -1,2 +1,8 @@
 # critical-css-gulp-example
-An example of a gulp task generating the critical CSS for some urls
+An example of a gulp task generating the critical CSS for some urls using Addy Osmani's [critical](https://github.com/addyosmani/critical) package.
+
+Useful to use in conjunction with Drupal's [Critical CSS module](https://www.drupal.org/project/critical_css) or with any other software which needs to make use of a file containing the critical CSS of any url.
+
+These files should be placed into Drupal's current theme directory, tipically in sites
+
+Please note that this gulp task should be tweaked to match your needs and workflow.
